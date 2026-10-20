@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto; /* Centrar */
+    background-color: white;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    
+}
+
+#servicios {
+    display: flex;
+    flex-basis: 60%;
+}
+
+#servicios > h2 {
+    padding: 1rem;
+    background-color: yellow;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#aside {
+    flex-grow: 1;
+}
